@@ -9,7 +9,7 @@ if someVariable == nil { // 만약 값이 없다면 90을 넣는다.
     someVariable = 90 // 값이 들어가긴 했지만 옵셔널인 상태.
 }
 print("someVariable: \(someVariable)")
-// 90(optional)
+// optional(90) 이런식으로 랩핑 즉 감싸져 있다.
 
 
 // 언랩핑 - 랩 즉 감싸져있는 것을 벗기는 것, 옵셔널을 벗긴다.
