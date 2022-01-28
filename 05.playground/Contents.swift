@@ -13,7 +13,7 @@ print("someVariable: \(someVariable)")
 
 
 // 언랩핑 - 랩 즉 감싸져있는 것을 벗기는 것, 옵셔널을 벗긴다.
-//if let, guard let으로 할 수 있다.
+//if let, guard let, 함수 설정으로 벗겨낼 수 있다.
 
 if let otherVariable = someVariable {
     print("언랩핑 되었다. 즉 값이 있다. otherVariable: \(otherVariable)")
@@ -29,7 +29,7 @@ print("#########################################################################
 
 
 someVariable = nil
-// someVariable 이 비어있으면, 즉 값이 없으면 기본값으로 이놈을 넣겠다.
+// someVariable 이 비어있으면, 즉 값이 없으면 기본값으로 10을 넣겠다.
 
 let myValue = someVariable ?? 10
 print("myValue: \(myValue)")
